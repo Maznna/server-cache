@@ -1,6 +1,7 @@
-@startuml firstDiagram
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
 
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-		
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
 @enduml
