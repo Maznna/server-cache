@@ -1,4 +1,5 @@
-some..
+Regular **Markdown** here.
+
 <div hidden>
 ```
 @startuml firstDiagram
@@ -11,3 +12,5 @@ Bob -> Alice: Hi!
 </div>
 
 ![](firstDiagram.svg)
+
+Some more markdown.
