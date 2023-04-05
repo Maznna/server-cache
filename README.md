@@ -11,4 +11,4 @@ The Markdown
 The Diagram
 ----
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Zingam/Markdown-Document-UML-Use-Test/master/UML/Instance.puml)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?srchttps://github.com/Maznna/server-cache/blob/main/sample.puml)
