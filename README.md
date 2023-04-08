@@ -11,4 +11,4 @@ The Markdown
 The Diagram
 ----
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://github.com/Maznna/server-cache/blob/main/sample.puml)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Maznna/server-cache/main/sample.puml)
