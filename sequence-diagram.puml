@@ -1,7 +1,24 @@
 @startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+participant client as CL
+participant service as S
+database cache as CS
+participant origin as OG
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+alt no lock 
+CL -> S : request data
+S -> CS : check lock
+S <- CS : no lock
+S -> CS : create lock
+S -> OG : request data
+S <- OG : data
+S -\ CS : cache in
+CL <- S : data
+else data in cache with lock
+CL -> S : request data
+S -> CS : check lock
+S <- CS : lock
+S -> CS : request data
+S <- CS : cached data
+CL <- S : data
+end 
 @enduml
