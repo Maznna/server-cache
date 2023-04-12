@@ -6,6 +6,6 @@ if (exist lock) then (yes)
 stop
 else (no)
   : create lock;
-  : request data to origin and caching;
+  : request data to origin and cache in the data;
 stop
 @enduml
